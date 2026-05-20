@@ -62,7 +62,7 @@ This system does not train any models. It uses pre-trained models from Google Ge
 **No formal benchmark evaluation was conducted.** System behavior was validated through:
 
 - Manual testing across the three routing paths (relevant, irrelevant, ambiguous)
-- A unit test suite (24 tests, 100% pass rate) covering all pipeline modules with mocked API calls
+- A unit test suite (23 tests, 100% pass rate) covering all pipeline modules with mocked API calls
 - Observed routing behavior: the `ambiguous` verdict fires more frequently than expected when relevant information is distributed across multiple document chunks rather than concentrated in one
 
 **Known performance factors:**
